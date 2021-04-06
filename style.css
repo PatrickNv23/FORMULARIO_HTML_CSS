@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Akaya Telivigala', cursive;
+
+}
+
+body,html{
+    height: 100%;
+}
+body{
+    background-color: #7C6CB2;
+}
+.form__titulo{
+    color: #573EAF;
+    font-size: 40px;
+    font-weight: 300;
+}
+.container{
+    display: flex;
+    background-color: #fff;
+    width: 500px;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 200px auto;
+    box-shadow: 2px 4px 18px 0 black;
+    border-radius: 30px;
+}
+
+
+.form__input{
+    display: block;
+    margin:40px auto;
+    outline: none;
+    width: 280px;
+    height: 50px;
+    border-radius: 24px;
+    text-align: center;
+    border: 3px solid #7C6CB2;
+    font-size: 20px;
+    transition: all .6s;
+}
+
+.form__input:focus{
+    width: 380px;
+}
+
+.form__buttom{
+    display: block;
+    margin: 30px auto;
+    outline: none;
+    width: 150px;
+    height: 50px;
+    border-radius: 24px;
+    text-align: center;
+    background-color: #7C6CB2;
+    border: 3px solid black;
+    transition: all .6s;
+    font-size: 20px;
+}
+
+.form__buttom:hover{
+    background-color: #5C47A7;
+    cursor:pointer;
+}
+
+.form__h4{
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 600px){
+    .container{
+
+        width: 300px;
+        height: 600px;
+    }
+
+    .form__titulo{
+        font-size: 30px;
+        font-weight: 300;
+    }
+
+    .form__input{
+        width: 160px;
+        height: 40px;
+        font-size: 15px;
+    }
+    .form__input:focus{
+        width: 250px;
+    }
+
+    .form__buttom{
+        width: 100px;
+        height: 50px;
+    }
+
+    .form__buttom:hover{
+        background-color: #5C47A7;
+    }
+
+    .form__h4{
+        font-size: 20px;
+    }
+
+    
+    
+}
+
